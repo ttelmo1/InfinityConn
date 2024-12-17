@@ -17,4 +17,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\InfinityConn.Application\InfinityConn.Application.csproj" />
+    <ProjectReference Include="..\InfinityConn.Domain\InfinityConn.Domain.csproj" />
+    <ProjectReference Include="..\InfinityConn.Infraestructure\InfinityConn.Infraestructure.csproj" />
+  </ItemGroup>
+
 </Project>
